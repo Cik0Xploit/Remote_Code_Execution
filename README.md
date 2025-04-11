@@ -1,7 +1,10 @@
-# LEKIR - Remote Code Execution (RCE) Learning Repository
+# LEKIR - Remote Code Execution (RCE) 
 
 ![Security Banner](https://img.shields.io/badge/Security-Research-blue) 
 ![Educational](https://img.shields.io/badge/Purpose-Educational-green)
+
+- Write-Up Author: whoami \[[whoami]([firdauskhairuddin](https://github.com/firdauskhairuddin))\]
+- Flag: firdausmemanghensem
 
 A repository documenting my learning journey about Remote Code Execution vulnerabilities, particularly in PHP environments.
 
@@ -37,10 +40,43 @@ These PHP functions can lead to RCE if used improperly with user input:
 | `popen()`      | Medium     | Opens process file pointer |
 | `proc_open()`  | Medium     | Advanced process control |
 
-
-## Procedure
-
-## 🛠️ Example 
+## 🛠️ Example Procedure
 ![Screenshot 2025-04-11 125153](https://github.com/user-attachments/assets/025d756b-5b10-4325-94e7-2fbb603b1cda)
 
-![image](https://github.com/user-attachments/assets/c24c9aca-868b-4f42-aa3b-008f8cb2599e)
+## Challenge Description:
+
+>this is challenge description
+>Level : Others
+>Short Form : RCE
+>Injection Point : $_POST['calculate']
+>Why this happen : It's a vulnerability that allows an attacker to execute arbitrary code on a target system remotely. >Attackers exploit this vulnerability by injecting malicious code into an application or system, often through input fields >or file uploads. Once exploited, RCE can lead to complete compromise of the target system, allowing attackers to steal >data, install malware, or take control of the system. To prevent RCE vulnerabilities, applications should sanitize user >input, validate file uploads, and implement proper security controls to restrict code execution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
