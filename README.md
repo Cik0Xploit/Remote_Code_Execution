@@ -40,19 +40,21 @@ These PHP functions can lead to RCE if used improperly with user input:
 | `popen()`      | Medium     | Opens process file pointer |
 | `proc_open()`  | Medium     | Advanced process control |
 
-## 🛠️ Example Procedure
+## 🛠️ WriteUp
 ![Screenshot 2025-04-11 125153](https://github.com/user-attachments/assets/025d756b-5b10-4325-94e7-2fbb603b1cda)
 
 ## Challenge Description:
 
 >this is challenge description
-Level : Others
-Short Form : RCE
-Injection Point : $_POST['calculate']
-Why this happen : It's a vulnerability that allows an attacker to execute arbitrary code on a target system remotely. Attackers exploit this vulnerability by injecting malicious code into an application or system, often through input fields or file uploads. Once exploited, RCE can lead to complete compromise of the target system, allowing attackers to steal data, install malware, or take control of the system. To prevent RCE vulnerabilities, applications should sanitize user input, validate file uploads, and implement proper security controls to restrict code execution.
+It's a vulnerability that allows an attacker to execute arbitrary code on a target system remotely. Attackers exploit this vulnerability by injecting malicious code into an application or system, often through input fields or file uploads. Once exploited, RCE can lead to complete compromise of the target system, allowing attackers to steal data, install malware, or take control of the system. To prevent RCE vulnerabilities, applications should sanitize user input, validate file uploads, and implement proper security controls to restrict code execution.
 
+#Investigate Vuln
 
-
+* Try PHP Function to see the 
+```c
+system('ls')
+```
+![Screenshot 2025-04-11 123905](https://github.com/user-attachments/assets/c0c43056-a40d-44d6-b607-b5a2de780777)
 
 
 
